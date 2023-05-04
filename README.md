@@ -1,1 +1,4 @@
+<h1> Batista & Moreira - Exercício 3, página 117</h1>
+<br>
 
+Os construtores de superclasses não são herdados por subclasses porque, em geral, cada classe tem suas próprias necessidades específicas de inicialização. O construtor é um método especial que tem o objetivo de inicializar um objeto da classe em questão, e esse processo de inicialização pode variar de classe para classe. Assim, cada classe é responsável por definir seus próprios construtores para garantir que a inicialização do objeto seja feita de maneira apropriada. Embora a subclasse possa acessar os membros da superclasse usando a palavra-chave "super", ela não pode acessar diretamente o construtor da superclasse. Portanto, a subclasse deve chamar explicitamente o construtor da superclasse por meio da palavra-chave "super" dentro de seus próprios construtores, se desejar herdar os comportamentos da superclasse.
